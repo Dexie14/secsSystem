@@ -1,3 +1,5 @@
+const { DM_Sans } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,7 +7,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  
   theme: {
+    fontFamily: {
+      body: [DM_Sans],
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,6 +20,8 @@ module.exports = {
       },
       colors: {
         primary: "#003518",
+        background: "#EDFFF5",
+        button: "#01B14F"
       },
     },
   },

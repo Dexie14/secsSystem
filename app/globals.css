@@ -18,7 +18,7 @@
 
 body {
   /* color: rgb(var(--foreground-rgb));
-  
+
   background: linear-gradient(
       to bottom,
       transparent,
@@ -26,3 +26,16 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'DMSansMedium';
+  src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  }
