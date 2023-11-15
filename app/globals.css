@@ -38,6 +38,12 @@ body{
   font-style: normal;
   }
 @font-face {
+  font-family: 'DMSansextra';
+  src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-ExtraBold.ttf');
+  font-weight: 900;
+  font-style: normal;
+  }
+@font-face {
   font-family: 'DMSansMedium';
   src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-Medium.ttf');
   font-weight: 500;
