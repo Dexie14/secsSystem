@@ -23,7 +23,8 @@ module.exports = {
         primary: "#003518",
         background: "#EDFFF5",
         button: "#01B14F",
-        greyColor: "#4F4F4F",
+        dark: "#4F4F4F",
+        border: "#016A2F"
       },
     },
   },
