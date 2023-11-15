@@ -67,7 +67,16 @@ const Navbar = () => {
             }}
           >
             <nav className="flex flex-col gap-14 justify-between items-center w-full mb-[50px]">
-              <h6 className="font-medium text-[#4F4F4F]">About</h6>
+              <Link href="/about" className="no-underline">
+                <h6
+                  className="font-medium text-[#4F4F4F]"
+                  style={{
+                    color: title === "about" ? "#01B14F" : "#4F4F4F",
+                  }}
+                >
+                  About
+                </h6>
+              </Link>
               <h6 className="font-medium text-[#4F4F4F]">Services</h6>
               <h6 className="font-medium text-[#4F4F4F]">Career</h6>
             </nav>
