@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header
       className=" py-8 bg-background relative top-0 shadow"
-      style={{ background: title === "about" ? "#FFF" : "" }}
+      style={{ background: title === "about" || "services" ? "#FFF" : "" }}
     >
       <section className="w-10/12 mx-auto flex justify-between items-center">
         <Link href="/" className="no-underline">
@@ -39,7 +39,16 @@ const Navbar = () => {
                 About
               </h6>
             </Link>
-            <h6 className="font-medium text-[#4F4F4F]">Services</h6>
+            <Link href="/services" className="no-underline">
+              <h6
+                className="font-medium text-[#4F4F4F]"
+                style={{
+                  color: title === "services" ? "#01B14F" : "#4F4F4F",
+                }}
+              >
+                Services
+              </h6>
+            </Link>
             <h6 className="font-medium text-[#4F4F4F]">Career</h6>
           </nav>
           <div>
