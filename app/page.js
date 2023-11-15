@@ -5,6 +5,7 @@ import Journey from '@/components/Home/Journey'
 import Unicorn from '@/components/Home/Unicorn'
 import Service from "@/components/Home/Service"
 import Call from '@/components/Home/Call'
+import Footer from '@/components/Home/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Unicorn />
       <Service />
       <Call />
+      <Footer />
     </main>
   )
 }

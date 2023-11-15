@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ServCard = ({title, text}) => {
   return (
-    <div className="py-8 px-3 flex flex-col justify-center bg-white border-[1.5px] border-[#016A2F] rounded-2xl items-center md:max-w-[45%] lg:max-w-[30%]">
+    <div className="py-8 px-3 flex flex-col justify-center bg-white border-[1.5px] border-[#016A2F] rounded-2xl items-center h-[400px] md:max-w-[45%] lg:max-w-[30%]">
       <div className="bg-[#01B14F] flex justify-center w-[60px] h-[60px] rounded-2xl">
         <Image src={serv} alt="serv" className=""/>
       </div>

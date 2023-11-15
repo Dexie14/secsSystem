@@ -38,7 +38,7 @@ const Service = () => {
             title="Fraud prevention and enhancing security "
             text="We assist businesses in enhancing the efficiency and security of their payment processes, all while elevating the customer experience, by detecting, preventing, and responding to fraud through a unified perspective on payment data."
           />
-          <div className="py-12 px-3 flex flex-col justify-center bg-white border-[1.5px] border-[#016A2F] rounded-2xl items-center md:max-w-[45%] lg:max-w-[30%]">
+          <div className="py-12 px-3 flex flex-col justify-center bg-white border-[1.5px] border-[#016A2F] rounded-2xl items-center w-full h-[400px] md:max-w-[45%] lg:max-w-[30%]">
             <div className="bg-[#01B14F] flex justify-center w-[60px] h-[60px] rounded-2xl">
               <Image src={serv} alt="serv" className="" />
             </div>
