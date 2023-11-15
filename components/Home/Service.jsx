@@ -44,13 +44,13 @@ const Service = () => {
             </div>
 
             <h3 className="mt-10 text-2xl text-center">Advisory Services:</h3>
-            <p className="text-[#4F4F4F] text-sm text-center my-5">
+            <ul className="text-[#4F4F4F] text-sm text-center my-5 list-disc list-inside">
               <li className="w-11/12">
                 Information Security Management Systems (ISO 27001)Business
               </li>
               <li>Continuity Management Systems (ISO 22301)Information</li>
               <li>Technology Service Management (ISO)</li>
-            </p>
+            </ul>
 
             <h6 className="text-[#01B14F] text-lg font-bold text-center">
               See More
