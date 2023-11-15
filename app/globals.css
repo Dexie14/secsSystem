@@ -16,7 +16,7 @@
   }
 } */
 
-body {
+/* body {
   /* color: rgb(var(--foreground-rgb));
 
   background: linear-gradient(
@@ -25,7 +25,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-}
+
 
 @font-face {
   font-family: 'DMSans';
@@ -37,5 +37,11 @@ body {
   font-family: 'DMSansMedium';
   src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-Medium.ttf');
   font-weight: 500;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'DMSansReg';
+  src: url('../public/assets/fonts//DM_Sans/sans/DMSans_36pt-Regular.ttf');
+  font-weight: 400;
   font-style: normal;
   }
