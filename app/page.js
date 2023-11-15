@@ -3,6 +3,8 @@ import Navbar from '@/components/Home/Navbar'
 import Hero from '@/components/Home/Hero'
 import Journey from '@/components/Home/Journey'
 import Unicorn from '@/components/Home/Unicorn'
+import Service from "@/components/Home/Service"
+import Call from '@/components/Home/Call'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />
       <Journey />
       <Unicorn />
+      <Service />
+      <Call />
     </main>
   )
 }
