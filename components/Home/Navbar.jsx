@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header
       className=" py-8 bg-background relative top-0 shadow"
-      style={{ background: title === "about" || "services" ? "#FFF" : "" }}
+      style={{ background: title === "" ? "" : "#fff" }}
     >
       <section className="w-10/12 mx-auto flex justify-between items-center">
         <Link href="/" className="no-underline">
@@ -49,7 +49,16 @@ const Navbar = () => {
                 Services
               </h6>
             </Link>
-            <h6 className="font-medium text-[#4F4F4F]">Career</h6>
+            <Link href="/career" className="no-underline">
+              <h6
+                className="font-medium text-[#4F4F4F]"
+                style={{
+                  color: title === "career" ? "#01B14F" : "#4F4F4F",
+                }}
+              >
+                Career
+              </h6>
+            </Link>
           </nav>
           <div>
             <button className="bg-button rounded-3xl py-3 px-6 text-white">
@@ -86,8 +95,26 @@ const Navbar = () => {
                   About
                 </h6>
               </Link>
-              <h6 className="font-medium text-[#4F4F4F]">Services</h6>
-              <h6 className="font-medium text-[#4F4F4F]">Career</h6>
+              <Link href="/services" className="no-underline">
+                <h6
+                  className="font-medium text-[#4F4F4F]"
+                  style={{
+                    color: title === "services" ? "#01B14F" : "#4F4F4F",
+                  }}
+                >
+                  Services
+                </h6>
+              </Link>
+              <Link href="/career" className="no-underline">
+                <h6
+                  className="font-medium text-[#4F4F4F]"
+                  style={{
+                    color: title === "career" ? "#01B14F" : "#4F4F4F",
+                  }}
+                >
+                  Career
+                </h6>
+              </Link>
             </nav>
             <div className="flex flex-col items-center gap-6 justify-between w-full">
               <Link href="/login" className="no-underline">

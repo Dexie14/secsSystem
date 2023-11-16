@@ -7,7 +7,7 @@ import Hero from "@/components/Services/Hero";
 import Order from "@/components/Services/Order";
 import OrderTwo from "@/components/Services/OrderTwo";
 
-export default function About() {
+export default function Services() {
   return (
     <main className="">
       <Navbar />
