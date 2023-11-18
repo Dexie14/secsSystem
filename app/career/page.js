@@ -1,8 +1,8 @@
 
 import Benefits from "@/components/Career/Benefits";
+import Form from "@/components/Career/Form";
 import Hero from "@/components/Career/Hero";
 import Positons from "@/components/Career/Positons";
-import Call from "@/components/Home/Call";
 import Footer from "@/components/Home/Footer";
 import Navbar from "@/components/Home/Navbar";
 
@@ -13,7 +13,7 @@ export default function Career() {
       <Hero />
       <Benefits />
       <Positons />
-      <Call/>
+      <Form/>
       <Footer />
     </main>
   );
