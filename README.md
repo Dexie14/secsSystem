@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Dexie14/secsSystem](https://github.com/Dexie14/secsSystem)
+- Solution URL1: [https://github.com/Dexie14/secsSystem](https://github.com/Dexie14/secsSystem)
+- Solution URL2: [https://secs-system.vercel.app/](https://secs-system.vercel.app/)
 
 
 
