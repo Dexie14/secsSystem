@@ -97,7 +97,7 @@ const Form = () => {
                       className="object-cover h-20 w-full rounded-md bg-[#BDFFDA]"
                     />
                     <button
-                      className="absolute top-2 right-2 bg-red-500 text-white p-1 rounded-md"
+                      className="absolute top-6 right-2 bg-red-500 text-white p-1 rounded-md"
                       onClick={handleFileDelete}
                     >
                       X
