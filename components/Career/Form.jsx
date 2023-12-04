@@ -38,7 +38,7 @@ const Form = () => {
 
   return (
     <div className=" bg-[url(/assets/home/callImage.svg)] bg-no-repeat bg-cover overflow-x-hidden py-24">
-      <div className="w-11/12 mx-auto md:flex gap-10 items-center">
+      <div className="w-11/12 mx-auto md:flex gap-10 items-center" id="contactUs">
         <section className="md:w-[40%]">
           <h1
             style={{ fontFamily: "DMSans" }}

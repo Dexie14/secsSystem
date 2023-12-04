@@ -16,9 +16,13 @@
   }
 } */
 
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 /* body {
   /* color: rgb(var(--foreground-rgb));

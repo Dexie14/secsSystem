@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeroImg from "@/public/assets/home/heroImage.svg";
 import frame from "@/public/assets/home/FrameHero.svg";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -20,9 +21,11 @@ const Hero = () => {
             services.
           </p>
           <div className="mx-auto w-1/2 md:mx-0 md:w-full">
-          <button className="bg-button rounded-3xl py-3 px-6 text-white w-full md:w-[35%]">
+          <Link href="#contactUs">
+          <button  className="bg-button rounded-3xl py-3 px-6 text-white w-full md:w-[35%]">
             Contact Us
           </button>
+          </Link>
           </div>
         </div>
         <div className="md:w-1/2 pb-20 relative lg:static">

@@ -1,5 +1,6 @@
 import Image from "next/image";
-import career from "@/public/assets/career/careerHero.svg"
+import career from "@/public/assets/career/careerHero.svg";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -18,13 +19,15 @@ const Hero = () => {
             committed to transforming the landscape of the payment industry?
           </h2>
           <div className="mx-auto w-1/2 md:mx-0 md:w-full mt-7">
-            <button className="bg-button rounded-3xl py-3 px-6 text-white w-full md:w-[35%]">
-              Contact Us
-            </button>
+            <Link href="#contactUs">
+              <button className="bg-button rounded-3xl py-3 px-6 text-white w-full md:w-[35%]">
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
         <div className="md:w-[40%] w-10/12 mx-auto md:mx-0">
-            <Image src={career} alt="career"/>
+          <Image src={career} alt="career" />
         </div>
       </div>
     </section>

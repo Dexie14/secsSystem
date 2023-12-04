@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link href="/" className="no-underline">
           <div className="flex gap-3 items-center">
             <Image src={logo} alt="logo" />
-            <h6 className="text-primary text-xl font-semibold">SecsSystems</h6>
+            <h6 className="text-primary text-xl font-semibold">Secsystems</h6>
           </div>
         </Link>
         <div className="md:flex gap-10 hidden justify-between items-center top-0">
@@ -61,9 +61,11 @@ const Navbar = () => {
             </Link>
           </nav>
           <div>
+          <Link href="#contactUs">
             <button className="bg-button rounded-3xl py-3 px-6 text-white">
               Contact Us
             </button>
+            </Link>
           </div>
         </div>
         {!open ? (
