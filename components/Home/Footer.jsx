@@ -21,11 +21,11 @@ const Footer = () => {
           <aside className="mt-10 md:flex lg:justify-between gap-8 ">
             <div className="flex gap-3 item-center md:mb-0 mb-10">
               <Image src={nga} alt="nga" />
-              <p className="text-lg">Adebayo street, Lagos Nigeria</p>
+              <p className="text-base">14, Abiodun Street Ogba Lagos Nigeria</p>
             </div>
             <div className="flex gap-3 items-center">
               <Image src={usa} alt="nga" />
-              <p className="text-lg">Queen Elizabeth Street, United Kingdom</p>
+              <p className="text-base">26, Fellowes Place, Plymouth United Kingdom</p>
             </div>
           </aside>
         </section>

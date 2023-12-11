@@ -12,7 +12,7 @@ const Team = () => {
         solvers—meet the talented individuals behind our innovative solutions.
       </p>
 
-      <div className="flex flex-wrap md:flex-nowrap items-center justify-center sm:justify-between gap-12 my-10">
+      {/* <div className="flex flex-wrap md:flex-nowrap items-center justify-center sm:justify-between gap-12 my-10">
         <section className="">
           <Image src={ceo} alt="ceo" className="bg-[#84E0AD]" />
           <p className="text-primary text-xl my-1">Segun Adebiyi</p>
@@ -89,7 +89,7 @@ const Team = () => {
             </svg>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };
