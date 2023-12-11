@@ -5,6 +5,7 @@ import Vision from "@/components/About/Vision";
 import Call from "@/components/Home/Call";
 import Footer from "@/components/Home/Footer";
 import Navbar from "@/components/Home/Navbar";
+import Partner from "@/components/Home/Partner";
 
 export default function About() {
   return (
@@ -13,7 +14,8 @@ export default function About() {
       <Hero />
       <Vision />
       <Mission />
-      <Team />
+      {/* <Team /> */}
+      <Partner/>
       <Call/>
       <Footer />
     </main>
