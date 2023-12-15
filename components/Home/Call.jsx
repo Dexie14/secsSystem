@@ -13,7 +13,7 @@ const Call = () => {
         </h1>
         <div className="mx-auto w-1/2 md:mx-0 md:w-full" >
           <button className="bg-white rounded-3xl py-3 px-6 text-xl text-[#01B14F] w-full md:w-[30%] xl:w-[15%]">
-            Call us now
+            <a href = "mailto: enquiries@secsystems.org"> Mail us now </a>
           </button>
         </div>
       </section>

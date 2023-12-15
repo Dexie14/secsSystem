@@ -13,7 +13,7 @@ const Footer = () => {
         <section className="lg:w-[50%] lg:mb-0 mb-20">
           <div className="flex gap-3 items-center">
             <Image src={logo} alt="logo" />
-            <h6 className="text-primary text-xl font-semibold">SecsSystems</h6>
+            <h6 className="text-primary text-xl font-semibold">Secsystems</h6>
           </div>
           <p className="text-[#4F4F4F] text-sm mt-5">
             Building unicorn payment systems.
@@ -102,7 +102,7 @@ const Footer = () => {
           </div>
         </section>
       </div>
-      <p className="text-[#4F4F4F] text-base sm:text-lg my-10 text-center">Copyright {year}, SecsSystems , All right reserved</p>
+      <p className="text-[#4F4F4F] text-base sm:text-lg my-10 text-center">Copyright {year}, Secsystems , All right reserved</p>
     </footer>
   );
 };
