@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const JobCard = ({ title, text }) => {
@@ -13,10 +14,11 @@ const JobCard = ({ title, text }) => {
       </h3>
       <p className="my-5 text-[#333] text-sm">{text}</p>
       <div className="flex gap-7">
+      <Link href="#contactUs">
         <p className="text-button text-sm" style={{ fontFamily: "DMSans" }}>
-          {" "}
-          View Job
+          Submit now
         </p>
+        </Link>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
