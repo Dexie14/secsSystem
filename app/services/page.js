@@ -1,6 +1,7 @@
 
 import Call from "@/components/Home/Call";
 import Footer from "@/components/Home/Footer";
+import FormContact from "@/components/Home/FormContact";
 import Navbar from "@/components/Home/Navbar";
 import Unicorn from "@/components/Home/Unicorn";
 import Hero from "@/components/Services/Hero";
@@ -15,7 +16,8 @@ export default function Services() {
       <Order />
       <Unicorn />
       <OrderTwo />
-      <Call/>
+      {/* <Call/> */}
+      <FormContact/>
       <Footer />
     </main>
   );

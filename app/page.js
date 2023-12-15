@@ -7,6 +7,7 @@ import Service from "@/components/Home/Service"
 import Call from '@/components/Home/Call'
 import Footer from '@/components/Home/Footer'
 import Partner from '@/components/Home/Partner'
+import FormContact from '@/components/Home/FormContact'
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <Unicorn />
       <Service />
       <Partner/>
-      <Call />
+      {/* <Call /> */}
+      <FormContact/>
       <Footer />
     </main>
   )

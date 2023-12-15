@@ -4,6 +4,7 @@ import Team from "@/components/About/Team";
 import Vision from "@/components/About/Vision";
 import Call from "@/components/Home/Call";
 import Footer from "@/components/Home/Footer";
+import FormContact from "@/components/Home/FormContact";
 import Navbar from "@/components/Home/Navbar";
 import Partner from "@/components/Home/Partner";
 
@@ -16,7 +17,8 @@ export default function About() {
       <Mission />
       {/* <Team /> */}
       <Partner/>
-      <Call/>
+      {/* <Call/> */}
+      <FormContact/>
       <Footer />
     </main>
   );

@@ -48,7 +48,7 @@ const Form = () => {
           </h1>
           <div className="w-1/2 md:w-full">
             <button className="bg-white rounded-3xl py-3 px-6 text-xl text-[#01B14F] w-[200px]">
-              Call us now
+            <a href = "mailto: enquiries@secsystems.org"> Mail us now </a>
             </button>
           </div>
         </section>
